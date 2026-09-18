@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "ozbekclient",
+  "version": "${version}",
+  "name": "O'zbek Client",
+  "description": "O'zbek tilidagi Fabric klient: GUI, HUD, do'stlar va jang modullari.",
+  "authors": ["O'zbek Client"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["uz.ozbek.client.OzbekClient"] },
+  "mixins": ["ozbekclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
